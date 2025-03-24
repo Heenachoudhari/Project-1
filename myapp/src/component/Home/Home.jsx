@@ -33,7 +33,7 @@ export default function Navbar() {
           menuOpen ? "block" : "hidden"
         } w-full md:w-auto md:flex flex-col md:flex-row text-center font-semibold mt-4 md:mt-0`}
       >
-        <Link href="/" className="block md:inline-block hover:text-blue-500 px-4 py-2">
+        <Link href="/Home" className="block md:inline-block hover:text-blue-500 px-4 py-2">
           Home
         </Link>
         <Link href="/about" className="block md:inline-block hover:text-blue-500 px-4 py-2">
