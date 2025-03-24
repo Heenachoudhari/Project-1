@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="flex flex-wrap justify-between items-start text-center md:text-left gap-6">
                         
                         {/* Left Section - Logo & Copyright */}
-                        <div className="w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left">
+                        <div className="w-full md:w-1/4 flex flex-col items-center md:items-start text-center md:text-left p-4">
                             <h2 className="text-xl font-bold flex items-center">
                                 <span className="mr-2">🚀</span> Code 4Bharat
                             </h2>
@@ -19,23 +19,25 @@ export default function Footer() {
                         </div>
 
                         {/* Center Section - Links & Contact */}
-                        <div className="w-full md:w-1/2 flex flex-wrap justify-center md:justify-start gap-8">
+                        <div className="w-full md:w-1/2 flex flex-wrap justify-center md:justify-start gap-8 p-4">
                             {/* Links */}
-                            <div className="flex flex-wrap gap-10">
-                                <div className="flex flex-col space-y-2 text-sm">
-                                    <a href="" className="hover:text-white">About Me</a>
+                            <div className="flex flex-wrap gap-10 p-4">
+                                <div className="flex flex-col space-y-3 text-sm p-2">
+                                    <a href="" className="hover:text-white"><b>About Me</b></a>
                                     <a href="" className="hover:text-white">License</a>
                                     <a href="" className="hover:text-white">FAQ</a>
                                 </div>
-                                <div className="flex flex-col space-y-2 text-sm">
-                                    <a href="" className="hover:text-white">Privacy Policy</a>
-                                    <a href="" className="hover:text-white">Cookie Policy</a>
-                                    <a href="" className="hover:text-white">Terms of Service</a>
+                                <div className="flex flex-col space-y-3 text-sm p-2">
+                                    <a href="" className="hover:text-white"><b>Privacy Policy</b></a>
+                                    <a href="" className="hover:text-white">Security Measures</a>
+                                    <a href="" className="hover:text-white">Third-Party Links</a>
+                                    <a href="" className="hover:text-white">Change the Privacy Policy</a>
+                                    <a href="/Contact" className="hover:text-white">Contact Us</a>
                                 </div>
                             </div>
 
                             {/* Contact Details */}
-                            <div className="flex flex-col text-sm">
+                            <div className="flex flex-col text-sm p-4">
                                 <p className="font-bold">Contact us</p>
                                 <p className="font-bold">Email:</p>
                                 <p className="mb-1">code4bharat2025@.com</p>
@@ -44,7 +46,7 @@ export default function Footer() {
                                 <p className="mb-1">+91 95944 30295</p>
 
                                 <p className="font-bold">Address:</p>
-                                <p className="mb-1">BKC,MUMBAI,INDIA 700405</p>
+                                <p className="mb-1">BKC, MUMBAI, INDIA 700405</p>
                             </div>
                         </div>
 

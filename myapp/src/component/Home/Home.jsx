@@ -39,9 +39,10 @@ export default function Navbar() {
         <Link href="/about" className="block md:inline-block hover:text-blue-500 px-4 py-2">
           About
         </Link>
-        <Link href="/contact" className="block md:inline-block hover:text-blue-500 px-4 py-2">
-          Contact
-        </Link>
+        <Link href="/Contact" className="block md:inline-block hover:text-blue-500 px-4 py-2">
+  Contact
+</Link>
+
         <Link href="/Login" className="block md:inline-block hover:text-blue-500 px-4 py-2">
           Login
         </Link>
